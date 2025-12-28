@@ -35,7 +35,7 @@ function formatCountdown(ms) {
   const hours = Math.floor((totalSeconds % 86400) / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
-  return `${days}d ${hours}h ${minutes}m until New Year!`;
+  return `${days}days, ${hours}hours ${minutes}m until 2026!`;
 }
 
 async function updateStatus() {
